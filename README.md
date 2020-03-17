@@ -1,2 +1,21 @@
 # Algorithm
-알고리즘  수업 샘플코드 작성
+# Topics
+## 0. Terms
+> * [Computational problem](https://github.com/baehunsang/Algorithm---/wiki/Computational-Problem)
+> * [Algorithm](https://github.com/baehunsang/Algorithm---/wiki/Algorithm)
+## 1. Design techniques
+> ### (1)incremental approach
+> * #### [Insertion sort](https://github.com/baehunsang/Algorithm---/wiki/Insertion-sort)
+> ### (2)divide and conquer
+> * #### [merge sort](https://github.com/baehunsang/Algorithm---/wiki/Merge-sort), quick sort
+> ### (3)using data structure
+> * #### heap sort
+> ### (4)dynamic programming
+> ### (5)greedy algorithm
+## 2.Analysis techniques 
+> ### (1)worst case complexity
+> ### (2)average case complexity
+> * #### randomize quick sort
+## 3.P vs NP question
+## 4.Quantum algorithms
+> ### Deutsch algorithm
