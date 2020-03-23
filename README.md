@@ -1,4 +1,3 @@
-# Algorithm
 # Topics
 ## 0. Terms
 > * [Computational problem](https://github.com/baehunsang/Algorithm---/wiki/Computational-Problem)
@@ -9,7 +8,7 @@
 > ### (2)divide and conquer
 > * #### [merge sort](https://github.com/baehunsang/Algorithm---/wiki/Merge-sort), quick sort
 > ### (3)using data structure
-> * #### heap sort
+> * #### [heap sort](https://github.com/baehunsang/Algorithm---/wiki/Heap-sort)
 > ### (4)dynamic programming
 > ### (5)greedy algorithm
 ## 2.Analysis Techniques 
