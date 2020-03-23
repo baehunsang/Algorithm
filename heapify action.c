@@ -36,6 +36,7 @@ int main() {
         printf("%d ", arr[i]);
     }
     printf("\n");
+    free(heap)
 }
 
 void swap(int* element1, int* element2) {
