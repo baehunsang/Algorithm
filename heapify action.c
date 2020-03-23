@@ -24,7 +24,7 @@ void Heapify(Heap heap, int index) { //Top to Down
 }
 int main() {
 	int arr[] = { 16, 4, 10, 14, 7, 9, 3, 2, 8, 1 };
-    Heap heap = malloc(sizeof(heap));
+    Heap heap = (Heap)malloc(sizeof(heap));
     (heap->size) = 10;
     (heap->arr) = arr;
     for (int i = 0; i < 10; i++) {
