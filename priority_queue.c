@@ -53,7 +53,7 @@ void Heapify(Heap heap, int index) { //Top to Down
     int rightIndex = 2 * index + 2;
     int largest = index;                   //Making max-heap
     if (leftIndex <= (heap->size) - 1 &&
-        heap->arr[leftIndex] > heap->arr[index]) {
+        heap->arr[leftIndex] > heap->arr[index]) {              //compare function is needed in here
         largest = leftIndex;
     } // compare left node
     if (rightIndex <= (heap->size) - 1 &&
@@ -88,7 +88,7 @@ int HeapIncreaseKey(Heap heap, int index, Data key) {
     }
     heap->arr[index] = key;
   
-    while (index>0 && heap->arr[parent(index)] < heap->arr[index]){  //compare 함수 정의 필요
+    while (index>0 && heap->arr[parent(index)] < heap->arr[index]){  //compare function is needed for other data type.
         swap(&(heap->arr[index]), &(heap->arr[parent(index)]));
         index = parent(index);
     }
