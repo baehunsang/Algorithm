@@ -83,12 +83,12 @@ int main() {
 		printf("Shortest distances from node %d\n", startNode);
 		printf("-----------------------------\n"); printf("   node |");
 		for (int i = 0; i < numOfNode; i++) {
-			printf("%3d|", i); // Output array's 'i'th element means shortest distance between stary node to node 'i'.
+			printf("%3d|", i); // Output array's 'i'th element means shortest distance between start node to node 'i'.
 		}
 		printf("\n");
 		printf("-----------------------------\n"); printf("distence|");
 		for (int i = 0; i < numOfNode; i++) {
-			printf("%3d|", outputArr[i]); // Output array's 'i'th element means shortest distance between stary node to node 'i'.
+			printf("%3d|", outputArr[i]); // Output array's 'i'th element means shortest distance between start node to node 'i'.
 		}
 		printf("\n");
 		for (int i = 0; i < numOfNode; i++) {
